@@ -1,0 +1,501 @@
+/* ========================================================
+   SignBridge How It Works Page Styles (Phase 7)
+   ======================================================== */
+
+.hiw-page {
+  padding: 4rem 1.5rem 5rem;
+  max-width: 1240px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.hiw-header {
+  text-align: center;
+  max-width: 840px;
+  margin: 0 auto 3rem;
+}
+
+.hiw-title {
+  font-size: clamp(2.3rem, 5vw, 3.4rem);
+  font-weight: 900;
+  color: #0f172a;
+  letter-spacing: -0.03em;
+  margin: 0.75rem 0 1rem;
+}
+
+.hiw-lead {
+  font-size: 1.15rem;
+  color: #64748b;
+  line-height: 1.65;
+  margin: 0;
+}
+
+/* Mode Switcher Filter Tabs */
+.hiw-filter-tabs {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  margin-bottom: 3.5rem;
+  flex-wrap: wrap;
+}
+
+.hiw-tab-btn {
+  padding: 0.65rem 1.25rem;
+  background: #ffffff;
+  border: 1px solid #cbd5e1;
+  color: #475569;
+  font-size: 0.9rem;
+  font-weight: 600;
+  border-radius: 9999px;
+  cursor: pointer;
+  transition: all 0.15s cubic-bezier(0.4, 0, 0.2, 1);
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.hiw-tab-btn:hover {
+  border-color: #0d9488;
+  color: #0d9488;
+  background: #f0fdfa;
+}
+
+.hiw-tab-btn.active {
+  background: #0d9488;
+  color: #ffffff;
+  border-color: #0d9488;
+  box-shadow: 0 4px 12px rgba(13, 148, 136, 0.25);
+}
+
+/* Pipeline Block */
+.hiw-pipeline-block {
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 20px;
+  padding: 2.75rem 2rem;
+  margin-bottom: 3.5rem;
+  box-shadow: 0 4px 20px rgba(15, 23, 42, 0.04);
+}
+
+.pipeline-badge-row {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-bottom: 0.5rem;
+}
+
+.pipeline-badge-tag {
+  padding: 0.25rem 0.75rem;
+  border-radius: 6px;
+  font-size: 0.75rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.pipeline-badge-tag.dir-1 {
+  background: #eff6ff;
+  color: #2563eb;
+  border: 1px solid #bfdbfe;
+}
+
+.pipeline-badge-tag.dir-2 {
+  background: #f5f3ff;
+  color: #7c3aed;
+  border: 1px solid #ddd6fe;
+}
+
+.hiw-pipeline-block h2 {
+  font-size: 1.85rem;
+  font-weight: 800;
+  color: #0f172a;
+  margin: 0 0 0.5rem;
+}
+
+.hiw-pipeline-subtitle {
+  font-size: 1.05rem;
+  color: #64748b;
+  margin: 0 0 2rem;
+}
+
+/* Horizontal Flow Rail */
+.hiw-flow-rail {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem;
+  background: #f8fafc;
+  border: 1.5px solid #e2e8f0;
+  border-radius: 16px;
+  padding: 1.5rem 1.25rem;
+  margin-bottom: 2.5rem;
+  overflow-x: auto;
+}
+
+.rail-node {
+  flex: 1;
+  min-width: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 0.35rem;
+}
+
+.rail-icon-box {
+  width: 48px;
+  height: 48px;
+  border-radius: 12px;
+  background: #ffffff;
+  border: 1.5px solid #cbd5e1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  box-shadow: 0 2px 6px rgba(15, 23, 42, 0.04);
+  transition: transform 0.15s ease;
+}
+
+.rail-node:hover .rail-icon-box {
+  transform: translateY(-2px);
+  border-color: #0d9488;
+}
+
+.rail-node.highlight .rail-icon-box {
+  border-color: #0d9488;
+  background: #f0fdfa;
+}
+
+.rail-name {
+  font-size: 0.8rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  color: #0f172a;
+  letter-spacing: 0.04em;
+}
+
+.rail-arrow {
+  color: #94a3b8;
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+/* Detailed Step Cards Grid */
+.hiw-steps-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(310px, 1fr));
+  gap: 1.5rem;
+}
+
+.hiw-step-card {
+  background: #f8fafc;
+  border: 1px solid #e2e8f0;
+  border-radius: 14px;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+  position: relative;
+  transition: all 0.2s ease;
+}
+
+.hiw-step-card:hover {
+  transform: translateY(-2px);
+  background: #ffffff;
+  box-shadow: 0 6px 18px rgba(15, 23, 42, 0.05);
+  border-color: #cbd5e1;
+}
+
+.step-card-header {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.step-badge-number {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background: #0f172a;
+  color: #ffffff;
+  font-size: 0.8rem;
+  font-weight: 800;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.step-badge-number.dir-2 {
+  background: #7c3aed;
+}
+
+.step-card-header h3 {
+  font-size: 1.05rem;
+  font-weight: 800;
+  color: #0f172a;
+  margin: 0;
+}
+
+.hiw-step-card p {
+  font-size: 0.9rem;
+  color: #475569;
+  line-height: 1.6;
+  margin: 0;
+}
+
+.step-tech-tag {
+  align-self: flex-start;
+  margin-top: auto;
+  font-size: 0.725rem;
+  font-weight: 700;
+  color: #0d9488;
+  background: #f0fdfa;
+  padding: 0.2rem 0.55rem;
+  border-radius: 6px;
+  border: 1px solid #ccfbf1;
+}
+
+/* 21 Hand Landmarks Interactive Section */
+.hiw-landmarks-section {
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 20px;
+  padding: 2.75rem 2rem;
+  margin-bottom: 3.5rem;
+}
+
+.landmarks-showcase-grid {
+  display: grid;
+  grid-template-columns: 1fr 1.2fr;
+  gap: 2.5rem;
+  align-items: center;
+  margin-top: 1.5rem;
+}
+
+.landmarks-visual-card {
+  background: #0f172a;
+  border-radius: 16px;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  box-shadow: 0 12px 28px rgba(15, 23, 42, 0.2);
+}
+
+.hand-svg-container {
+  width: 100%;
+  max-width: 280px;
+  height: 320px;
+}
+
+.landmark-visual-caption {
+  margin-top: 1rem;
+  color: #94a3b8;
+  font-size: 0.8rem;
+  text-align: center;
+}
+
+.landmarks-list-card h3 {
+  font-size: 1.3rem;
+  font-weight: 800;
+  color: #0f172a;
+  margin: 0 0 0.75rem;
+}
+
+.landmarks-list-card p {
+  color: #64748b;
+  font-size: 0.95rem;
+  line-height: 1.6;
+  margin: 0 0 1.5rem;
+}
+
+.joints-groups-accordion {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.joint-group-item {
+  background: #f8fafc;
+  border: 1px solid #e2e8f0;
+  border-radius: 10px;
+  padding: 0.9rem 1.1rem;
+}
+
+.joint-group-item strong {
+  display: block;
+  font-size: 0.9rem;
+  color: #0f172a;
+  margin-bottom: 0.2rem;
+}
+
+.joint-group-item small {
+  font-size: 0.8rem;
+  color: #64748b;
+  line-height: 1.4;
+  display: block;
+}
+
+/* AI Evolution Matrix (Section 12 Roadmap) */
+.hiw-roadmap-section {
+  background: #f8fafc;
+  border: 1px solid #e2e8f0;
+  border-radius: 20px;
+  padding: 2.75rem 2rem;
+  margin-bottom: 3.5rem;
+}
+
+.roadmap-phases-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1.5rem;
+  margin-top: 1.75rem;
+}
+
+.roadmap-phase-card {
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 14px;
+  padding: 1.75rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+  position: relative;
+}
+
+.roadmap-phase-card.active-phase {
+  border-color: #0d9488;
+  box-shadow: 0 0 0 2px rgba(13, 148, 136, 0.2);
+}
+
+.phase-pill {
+  font-size: 0.7rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  padding: 0.2rem 0.55rem;
+  border-radius: 6px;
+  width: fit-content;
+}
+
+.phase-pill.current {
+  background: #ecfdf5;
+  color: #059669;
+}
+
+.phase-pill.upcoming {
+  background: #f1f5f9;
+  color: #64748b;
+}
+
+.roadmap-phase-card h4 {
+  font-size: 1.1rem;
+  font-weight: 800;
+  color: #0f172a;
+  margin: 0;
+}
+
+.roadmap-phase-card p {
+  font-size: 0.875rem;
+  color: #64748b;
+  line-height: 1.6;
+  margin: 0;
+}
+
+.phase-tech-stack {
+  margin-top: auto;
+  font-family: monospace;
+  font-size: 0.75rem;
+  color: #0f766e;
+  background: #f0fdfa;
+  padding: 0.35rem 0.6rem;
+  border-radius: 6px;
+}
+
+/* CTA Banner */
+.hiw-cta-card {
+  background: linear-gradient(135deg, #0f172a, #1e293b);
+  border-radius: 20px;
+  padding: 3rem 2.5rem;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.hiw-cta-text h3 {
+  font-size: 1.6rem;
+  font-weight: 800;
+  margin: 0 0 0.5rem;
+}
+
+.hiw-cta-text p {
+  font-size: 1rem;
+  color: #94a3b8;
+  margin: 0;
+  max-width: 600px;
+}
+
+.hiw-cta-actions {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.hiw-btn-primary {
+  padding: 0.85rem 1.6rem;
+  background: #0d9488;
+  color: #ffffff;
+  font-weight: 700;
+  border-radius: 10px;
+  text-decoration: none;
+  transition: background 0.15s ease;
+}
+
+.hiw-btn-primary:hover {
+  background: #0f766e;
+  color: #ffffff;
+}
+
+.hiw-btn-secondary {
+  padding: 0.85rem 1.6rem;
+  background: transparent;
+  color: #ffffff;
+  border: 1.5px solid rgba(255, 255, 255, 0.3);
+  font-weight: 600;
+  border-radius: 10px;
+  text-decoration: none;
+  transition: all 0.15s ease;
+}
+
+.hiw-btn-secondary:hover {
+  border-color: #ffffff;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+  .landmarks-showcase-grid {
+    grid-template-columns: 1fr;
+  }
+  .hiw-flow-rail {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+  }
+  .rail-arrow {
+    display: none;
+  }
+}
+
+@media (max-width: 640px) {
+  .hiw-pipeline-block {
+    padding: 1.75rem 1.25rem;
+  }
+  .hiw-cta-card {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}

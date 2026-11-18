@@ -1,0 +1,239 @@
+/* ========================================================
+   SignBridge Live Studio Enhanced Styles (Phase 11)
+   ======================================================== */
+
+.studio-toolbar-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+  background: #f8fafc;
+  border: 1px solid #e2e8f0;
+  border-radius: 12px;
+  padding: 0.75rem 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.studio-tools-group {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.studio-toggle-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  padding: 0.4rem 0.75rem;
+  border-radius: 8px;
+  font-size: 0.82rem;
+  font-weight: 700;
+  border: 1px solid #cbd5e1;
+  background: #ffffff;
+  color: #475569;
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+
+.studio-toggle-btn:hover {
+  background: #f1f5f9;
+  border-color: #94a3b8;
+  color: #0f172a;
+}
+
+.studio-toggle-btn.active {
+  background: #0d9488;
+  border-color: #0d9488;
+  color: #ffffff;
+  box-shadow: 0 2px 8px rgba(13, 148, 136, 0.25);
+}
+
+/* Sensitivity slider */
+.sensitivity-control {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: #475569;
+}
+
+.sensitivity-slider {
+  width: 90px;
+  accent-color: #0d9488;
+  cursor: pointer;
+}
+
+.sensitivity-val {
+  background: #e2e8f0;
+  color: #0f172a;
+  padding: 0.15rem 0.45rem;
+  border-radius: 6px;
+  font-family: ui-monospace, monospace;
+  font-size: 0.75rem;
+}
+
+/* Camera mirrored class */
+.video-feed.mirrored,
+.canvas-feed.mirrored {
+  transform: scaleX(-1);
+}
+
+/* Audio Settings Drawer / Row */
+.audio-settings-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  flex-wrap: wrap;
+  background: #f0fdfa;
+  border: 1px solid #ccfbf1;
+  border-radius: 12px;
+  padding: 0.75rem 1rem;
+  margin-bottom: 0.75rem;
+}
+
+.audio-settings-label {
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: #0f766e;
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.audio-select {
+  padding: 0.35rem 0.65rem;
+  border-radius: 6px;
+  border: 1px solid #99f6e4;
+  background: #ffffff;
+  font-size: 0.8rem;
+  color: #134e4a;
+  font-weight: 600;
+  max-width: 180px;
+  cursor: pointer;
+}
+
+/* Sentence Builder Upgrade */
+.token-chip-enhanced {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  background: #ffffff;
+  border: 1.5px solid #0d9488;
+  color: #0f766e;
+  font-weight: 700;
+  font-size: 0.95rem;
+  padding: 0.4rem 0.85rem;
+  border-radius: 9999px;
+  box-shadow: 0 2px 6px rgba(13, 148, 136, 0.12);
+  animation: popIn 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+@keyframes popIn {
+  from { transform: scale(0.8); opacity: 0; }
+  to { transform: scale(1); opacity: 1; }
+}
+
+.token-remove-btn {
+  background: none;
+  border: none;
+  color: #94a3b8;
+  cursor: pointer;
+  padding: 0;
+  font-size: 0.85rem;
+  line-height: 1;
+  display: flex;
+  align-items: center;
+}
+
+.token-remove-btn:hover {
+  color: #ef4444;
+}
+
+/* Keyboard Shortcut Hints Bar */
+.kbd-shortcuts-bar {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+  font-size: 0.78rem;
+  color: #64748b;
+  padding: 0.5rem 0.25rem 0;
+}
+
+.kbd-item {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+}
+
+.kbd-item kbd {
+  background: #e2e8f0;
+  border: 1px solid #cbd5e1;
+  border-radius: 4px;
+  padding: 0.1rem 0.4rem;
+  font-size: 0.7rem;
+  font-weight: 700;
+  font-family: ui-monospace, monospace;
+  color: #334155;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+
+/* Palette Search Filter */
+.palette-search-row {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 0.75rem;
+}
+
+.palette-search-input {
+  width: 100%;
+  padding: 0.45rem 0.75rem;
+  border: 1px solid #cbd5e1;
+  border-radius: 8px;
+  font-size: 0.85rem;
+  color: #0f172a;
+}
+
+.palette-search-input:focus {
+  outline: none;
+  border-color: #0d9488;
+}
+
+/* Dark Mode Adjustments */
+body.dark-mode .studio-toolbar-row {
+  background: #0f172a;
+  border-color: #334155;
+}
+
+body.dark-mode .studio-toggle-btn {
+  background: #1e293b;
+  border-color: #334155;
+  color: #cbd5e1;
+}
+
+body.dark-mode .audio-settings-bar {
+  background: #042f2e;
+  border-color: #115e59;
+}
+
+body.dark-mode .audio-select {
+  background: #0f172a;
+  border-color: #115e59;
+  color: #ccfbf1;
+}
+
+body.dark-mode .token-chip-enhanced {
+  background: #1e293b;
+  border-color: #2dd4bf;
+  color: #5eead4;
+}
+
+body.dark-mode .kbd-item kbd {
+  background: #1e293b;
+  border-color: #334155;
+  color: #cbd5e1;
+}

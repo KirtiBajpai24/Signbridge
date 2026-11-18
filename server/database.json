@@ -1,0 +1,898 @@
+{
+  "users": [
+    {
+      "id": "user-1792989135251",
+      "name": "jasn",
+      "email": "jasn@gmail.com",
+      "phone": "+91 92502 06986",
+      "phoneE164": "+919250206986",
+      "phoneDigits": "9250206986",
+      "isPhoneVerified": true,
+      "password": "kirti@12",
+      "avatar": "🤟",
+      "joinedAt": "2026-10-26T04:32:15.251Z",
+      "loginCount": 2,
+      "hasReceivedWelcomeEmail": true,
+      "hasReceivedWelcomeSms": true,
+      "notificationPreferences": {
+        "emailOnLogin": true,
+        "smsOnLogin": true,
+        "welcomeEmail": true,
+        "welcomeSms": true
+      },
+      "passwordChangedAt": "2026-10-26T08:28:38.340Z",
+      "tokenVersion": 3
+    }
+  ],
+  "history": [
+    {
+      "id": "hist-1793018019648",
+      "userId": "user-1792989135251",
+      "type": "speech-to-sign",
+      "inputText": "hello how are you doing",
+      "outputText": "hello how are you doing",
+      "confidence": 100,
+      "timestamp": "2026-10-26T12:33:39.648Z"
+    },
+    {
+      "id": "hist-1793018008619",
+      "userId": "user-1792989135251",
+      "type": "sign-to-text",
+      "inputText": "Peace, or Number Two",
+      "outputText": "Peace, or Number Two",
+      "confidence": 96,
+      "timestamp": "2026-10-26T12:33:28.619Z"
+    },
+    {
+      "id": "hist-1793018006134",
+      "userId": "user-1792989135251",
+      "type": "sign-to-text",
+      "inputText": "Letter L",
+      "outputText": "Letter L",
+      "confidence": 95,
+      "timestamp": "2026-10-26T12:33:26.134Z"
+    },
+    {
+      "id": "hist-1793018001964",
+      "userId": "user-1792989135251",
+      "type": "sign-to-text",
+      "inputText": "Letter B",
+      "outputText": "Letter B",
+      "confidence": 95,
+      "timestamp": "2026-10-26T12:33:21.964Z"
+    },
+    {
+      "id": "hist-1793018001869",
+      "userId": "user-1792989135251",
+      "type": "sign-to-text",
+      "inputText": "No, I disagree",
+      "outputText": "No, I disagree",
+      "confidence": 95,
+      "timestamp": "2026-10-26T12:33:21.869Z"
+    },
+    {
+      "id": "hist-1793018001683",
+      "userId": "user-1792989135251",
+      "type": "sign-to-text",
+      "inputText": "Peace, or Number Two",
+      "outputText": "Peace, or Number Two",
+      "confidence": 97,
+      "timestamp": "2026-10-26T12:33:21.683Z"
+    },
+    {
+      "id": "hist-1793017999580",
+      "userId": "user-1792989135251",
+      "type": "sign-to-text",
+      "inputText": "Peace, or Number Two",
+      "outputText": "Peace, or Number Two",
+      "confidence": 96,
+      "timestamp": "2026-10-26T12:33:19.580Z"
+    },
+    {
+      "id": "hist-1793017998547",
+      "userId": "user-1792989135251",
+      "type": "sign-to-text",
+      "inputText": "No, I disagree",
+      "outputText": "No, I disagree",
+      "confidence": 97,
+      "timestamp": "2026-10-26T12:33:18.547Z"
+    },
+    {
+      "id": "hist-1793017995902",
+      "userId": "user-1792989135251",
+      "type": "sign-to-text",
+      "inputText": "Peace, or Number Two",
+      "outputText": "Peace, or Number Two",
+      "confidence": 96,
+      "timestamp": "2026-10-26T12:33:15.902Z"
+    },
+    {
+      "id": "hist-1793017995700",
+      "userId": "user-1792989135251",
+      "type": "sign-to-text",
+      "inputText": "No, I disagree",
+      "outputText": "No, I disagree",
+      "confidence": 97,
+      "timestamp": "2026-10-26T12:33:15.700Z"
+    },
+    {
+      "id": "hist-1793017991002",
+      "userId": "user-1792989135251",
+      "type": "sign-to-text",
+      "inputText": "Hello! How are you?",
+      "outputText": "Hello! How are you?",
+      "confidence": 98,
+      "timestamp": "2026-10-26T12:33:11.002Z"
+    },
+    {
+      "id": "hist-1793017990483",
+      "userId": "user-1792989135251",
+      "type": "sign-to-text",
+      "inputText": "No, I disagree",
+      "outputText": "No, I disagree",
+      "confidence": 71,
+      "timestamp": "2026-10-26T12:33:10.483Z"
+    },
+    {
+      "id": "hist-1793017983391",
+      "userId": "user-1792989135251",
+      "type": "sign-to-text",
+      "inputText": "Everything is OK",
+      "outputText": "Everything is OK",
+      "confidence": 97,
+      "timestamp": "2026-10-26T12:33:03.391Z"
+    },
+    {
+      "id": "hist-1793017982301",
+      "userId": "user-1792989135251",
+      "type": "sign-to-text",
+      "inputText": "Letter S or Ready",
+      "outputText": "Letter S or Ready",
+      "confidence": 94,
+      "timestamp": "2026-10-26T12:33:02.301Z"
+    },
+    {
+      "id": "hist-1793017981770",
+      "userId": "user-1792989135251",
+      "type": "sign-to-text",
+      "inputText": "No, I disagree",
+      "outputText": "No, I disagree",
+      "confidence": 97,
+      "timestamp": "2026-10-26T12:33:01.770Z"
+    },
+    {
+      "id": "hist-1793017979690",
+      "userId": "user-1792989135251",
+      "type": "sign-to-text",
+      "inputText": "Hello! How are you?",
+      "outputText": "Hello! How are you?",
+      "confidence": 99,
+      "timestamp": "2026-10-26T12:32:59.690Z"
+    },
+    {
+      "id": "hist-1793017979281",
+      "userId": "user-1792989135251",
+      "type": "sign-to-text",
+      "inputText": "Yes, that sounds good",
+      "outputText": "Yes, that sounds good",
+      "confidence": 97,
+      "timestamp": "2026-10-26T12:32:59.281Z"
+    },
+    {
+      "id": "hist-1793017975453",
+      "userId": "user-1792989135251",
+      "type": "sign-to-text",
+      "inputText": "Hello! How are you?",
+      "outputText": "Hello! How are you?",
+      "confidence": 99,
+      "timestamp": "2026-10-26T12:32:55.453Z"
+    },
+    {
+      "id": "hist-1793017975048",
+      "userId": "user-1792989135251",
+      "type": "sign-to-text",
+      "inputText": "Letter S or Ready",
+      "outputText": "Letter S or Ready",
+      "confidence": 94,
+      "timestamp": "2026-10-26T12:32:55.048Z"
+    },
+    {
+      "id": "hist-1793017974393",
+      "userId": "user-1792989135251",
+      "type": "sign-to-text",
+      "inputText": "Hello! How are you?",
+      "outputText": "Hello! How are you?",
+      "confidence": 98,
+      "timestamp": "2026-10-26T12:32:54.393Z"
+    },
+    {
+      "id": "hist-1793017974299",
+      "userId": "user-1792989135251",
+      "type": "sign-to-text",
+      "inputText": "Peace, or Number Two",
+      "outputText": "Peace, or Number Two",
+      "confidence": 98,
+      "timestamp": "2026-10-26T12:32:54.299Z"
+    },
+    {
+      "id": "hist-1793017970267",
+      "userId": "user-1792989135251",
+      "type": "sign-to-text",
+      "inputText": "Letter L",
+      "outputText": "Letter L",
+      "confidence": 95,
+      "timestamp": "2026-10-26T12:32:50.267Z"
+    },
+    {
+      "id": "hist-1793017969822",
+      "userId": "user-1792989135251",
+      "type": "sign-to-text",
+      "inputText": "No, I disagree",
+      "outputText": "No, I disagree",
+      "confidence": 97,
+      "timestamp": "2026-10-26T12:32:49.822Z"
+    },
+    {
+      "id": "hist-1793017962015",
+      "userId": "user-1792989135251",
+      "type": "sign-to-text",
+      "inputText": "Letter L",
+      "outputText": "Letter L",
+      "confidence": 95,
+      "timestamp": "2026-10-26T12:32:42.015Z"
+    },
+    {
+      "id": "hist-1793017961582",
+      "userId": "user-1792989135251",
+      "type": "sign-to-text",
+      "inputText": "Yes, that sounds good",
+      "outputText": "Yes, that sounds good",
+      "confidence": 97,
+      "timestamp": "2026-10-26T12:32:41.582Z"
+    },
+    {
+      "id": "hist-1793017961249",
+      "userId": "user-1792989135251",
+      "type": "sign-to-text",
+      "inputText": "Letter S or Ready",
+      "outputText": "Letter S or Ready",
+      "confidence": 94,
+      "timestamp": "2026-10-26T12:32:41.249Z"
+    },
+    {
+      "id": "hist-1793017955345",
+      "userId": "user-1792989135251",
+      "type": "sign-to-text",
+      "inputText": "Hello! How are you?",
+      "outputText": "Hello! How are you?",
+      "confidence": 98,
+      "timestamp": "2026-10-26T12:32:35.345Z"
+    },
+    {
+      "id": "hist-1792990343025",
+      "userId": "user-1792989135251",
+      "type": "sign-to-text",
+      "inputText": "Yes, that sounds good",
+      "outputText": "Yes, that sounds good",
+      "confidence": 99,
+      "timestamp": "2026-10-26T04:52:23.025Z"
+    },
+    {
+      "id": "hist-1792990272885",
+      "userId": "user-1792989135251",
+      "type": "sign-to-text",
+      "inputText": "Yes, that sounds good",
+      "outputText": "Yes, that sounds good",
+      "confidence": 97,
+      "timestamp": "2026-10-26T04:51:12.885Z"
+    },
+    {
+      "id": "hist-1792990272449",
+      "userId": "user-1792989135251",
+      "type": "sign-to-text",
+      "inputText": "Call me, or Letter Y",
+      "outputText": "Call me, or Letter Y",
+      "confidence": 96,
+      "timestamp": "2026-10-26T04:51:12.449Z"
+    },
+    {
+      "id": "hist-1792990271077",
+      "userId": "user-1792989135251",
+      "type": "sign-to-text",
+      "inputText": "Everything is OK",
+      "outputText": "Everything is OK",
+      "confidence": 97,
+      "timestamp": "2026-10-26T04:51:11.077Z"
+    },
+    {
+      "id": "hist-1792990266194",
+      "userId": "user-1792989135251",
+      "type": "sign-to-text",
+      "inputText": "Yes, that sounds good",
+      "outputText": "Yes, that sounds good",
+      "confidence": 99,
+      "timestamp": "2026-10-26T04:51:06.194Z"
+    },
+    {
+      "id": "hist-1792990262074",
+      "userId": "user-1792989135251",
+      "type": "sign-to-text",
+      "inputText": "Hello! How are you?",
+      "outputText": "Hello! How are you?",
+      "confidence": 99,
+      "timestamp": "2026-10-26T04:51:02.074Z"
+    },
+    {
+      "id": "hist-1792990261458",
+      "userId": "user-1792989135251",
+      "type": "sign-to-text",
+      "inputText": "Letter B",
+      "outputText": "Letter B",
+      "confidence": 95,
+      "timestamp": "2026-10-26T04:51:01.458Z"
+    },
+    {
+      "id": "hist-1792986933281",
+      "userId": "user-1790884098767",
+      "type": "sign-to-text",
+      "inputText": "Everything is OK",
+      "outputText": "Everything is OK",
+      "confidence": 97,
+      "timestamp": "2026-10-26T03:55:33.282Z"
+    },
+    {
+      "id": "hist-1792986786833",
+      "userId": "user-1790884098767",
+      "type": "sign-to-text",
+      "inputText": "Everything is OK",
+      "outputText": "Everything is OK",
+      "confidence": 97,
+      "timestamp": "2026-10-26T03:53:06.833Z"
+    }
+  ],
+  "quizScores": [],
+  "notifications": [
+    {
+      "id": "notif-1793017927452-d74v7",
+      "userId": "user-1792989135251",
+      "channel": "SMS",
+      "type": "LOGIN_ALERT_SMS",
+      "recipient": "+91****6986",
+      "summary": "SignBridge Alert: Hi jasn, successful login confir",
+      "provider": "simulation",
+      "status": "SIMULATED",
+      "messageId": "sim-sms-1793017927451",
+      "timestamp": "2026-10-26T12:32:07.452Z"
+    },
+    {
+      "id": "notif-1793017927361-mf53x",
+      "userId": "user-1792989135251",
+      "channel": "EMAIL",
+      "type": "LOGIN_ALERT_EMAIL",
+      "recipient": "ja***@gmail.com",
+      "subject": "Security Alert: Successful Login to SignBridge",
+      "provider": "simulation",
+      "status": "SIMULATED",
+      "messageId": "sim-email-1793017927359",
+      "timestamp": "2026-10-26T12:32:07.361Z"
+    },
+    {
+      "id": "notif-1793003777761-pyiew",
+      "userId": "user-1792989135251",
+      "channel": "SMS",
+      "type": "PASSWORD_RESET_SMS",
+      "recipient": "+91****6986",
+      "summary": "SignBridge: Hi jasn, your password reset code is 7",
+      "provider": "simulation",
+      "status": "SIMULATED",
+      "messageId": "sim-sms-1793003777752",
+      "timestamp": "2026-10-26T08:36:17.761Z"
+    },
+    {
+      "id": "notif-1793003777750-czaun",
+      "userId": "user-1792989135251",
+      "channel": "EMAIL",
+      "type": "PASSWORD_RESET_EMAIL",
+      "recipient": "ja***@gmail.com",
+      "subject": "Reset Your SignBridge Password",
+      "provider": "simulation",
+      "status": "SIMULATED",
+      "messageId": "sim-email-1793003777750",
+      "timestamp": "2026-10-26T08:36:17.750Z"
+    },
+    {
+      "id": "notif-1793003318341-f9cs7",
+      "userId": "user-1792989135251",
+      "channel": "SMS",
+      "type": "PASSWORD_CHANGED_SMS",
+      "recipient": "+91****6986",
+      "summary": "SignBridge Alert: Hi jasn, your password was chang",
+      "provider": "simulation",
+      "status": "SIMULATED",
+      "messageId": "sim-sms-1793003318341",
+      "timestamp": "2026-10-26T08:28:38.341Z"
+    },
+    {
+      "id": "notif-1793003318341-n8tt1",
+      "userId": "user-1792989135251",
+      "channel": "EMAIL",
+      "type": "PASSWORD_CHANGED_EMAIL",
+      "recipient": "ja***@gmail.com",
+      "subject": "Your SignBridge Password Was Changed",
+      "provider": "simulation",
+      "status": "SIMULATED",
+      "messageId": "sim-email-1793003318341",
+      "timestamp": "2026-10-26T08:28:38.341Z"
+    },
+    {
+      "id": "notif-1793003318339-8maib",
+      "userId": "user-1792989135251",
+      "channel": "SMS",
+      "type": "PASSWORD_RESET_SMS",
+      "recipient": "+91****6986",
+      "summary": "SignBridge: Hi jasn, your password reset code is 7",
+      "provider": "cache",
+      "status": "SKIPPED_DUPLICATE",
+      "details": "Suppressed duplicate within 60s cooldown window",
+      "timestamp": "2026-10-26T08:28:38.339Z"
+    },
+    {
+      "id": "notif-1793003318339-k2fw7",
+      "userId": "user-1792989135251",
+      "channel": "EMAIL",
+      "type": "PASSWORD_RESET_EMAIL",
+      "recipient": "ja***@gmail.com",
+      "subject": "Reset Your SignBridge Password",
+      "provider": "cache",
+      "status": "SKIPPED_DUPLICATE",
+      "details": "Suppressed duplicate within 60s cooldown window",
+      "timestamp": "2026-10-26T08:28:38.339Z"
+    },
+    {
+      "id": "notif-1793003318334-19r4p",
+      "userId": "user-1792989135251",
+      "channel": "SMS",
+      "type": "PASSWORD_RESET_SMS",
+      "recipient": "+91****6986",
+      "summary": "SignBridge: Hi jasn, your password reset code is 7",
+      "provider": "simulation",
+      "status": "SIMULATED",
+      "messageId": "sim-sms-1793003318334",
+      "timestamp": "2026-10-26T08:28:38.334Z"
+    },
+    {
+      "id": "notif-1793003318333-en82h",
+      "userId": "user-1792989135251",
+      "channel": "EMAIL",
+      "type": "PASSWORD_RESET_EMAIL",
+      "recipient": "ja***@gmail.com",
+      "subject": "Reset Your SignBridge Password",
+      "provider": "simulation",
+      "status": "SIMULATED",
+      "messageId": "sim-email-1793003318333",
+      "timestamp": "2026-10-26T08:28:38.333Z"
+    },
+    {
+      "id": "notif-1793003189626-up1bx",
+      "userId": "user-1792989135251",
+      "channel": "SMS",
+      "type": "PASSWORD_CHANGED_SMS",
+      "recipient": "+91****6986",
+      "summary": "SignBridge Alert: Hi jasn, your password was chang",
+      "provider": "simulation",
+      "status": "SIMULATED",
+      "messageId": "sim-sms-1793003189626",
+      "timestamp": "2026-10-26T08:26:29.626Z"
+    },
+    {
+      "id": "notif-1793003189626-7umzq",
+      "userId": "user-1792989135251",
+      "channel": "EMAIL",
+      "type": "PASSWORD_CHANGED_EMAIL",
+      "recipient": "ja***@gmail.com",
+      "subject": "Your SignBridge Password Was Changed",
+      "provider": "simulation",
+      "status": "SIMULATED",
+      "messageId": "sim-email-1793003189626",
+      "timestamp": "2026-10-26T08:26:29.626Z"
+    },
+    {
+      "id": "notif-1793003189624-mjlhi",
+      "userId": "user-1792989135251",
+      "channel": "SMS",
+      "type": "PASSWORD_RESET_SMS",
+      "recipient": "+91****6986",
+      "summary": "SignBridge: Hi jasn, your password reset code is 5",
+      "provider": "cache",
+      "status": "SKIPPED_DUPLICATE",
+      "details": "Suppressed duplicate within 60s cooldown window",
+      "timestamp": "2026-10-26T08:26:29.624Z"
+    },
+    {
+      "id": "notif-1793003189624-ezomq",
+      "userId": "user-1792989135251",
+      "channel": "EMAIL",
+      "type": "PASSWORD_RESET_EMAIL",
+      "recipient": "ja***@gmail.com",
+      "subject": "Reset Your SignBridge Password",
+      "provider": "cache",
+      "status": "SKIPPED_DUPLICATE",
+      "details": "Suppressed duplicate within 60s cooldown window",
+      "timestamp": "2026-10-26T08:26:29.624Z"
+    },
+    {
+      "id": "notif-1793003189619-4i0zp",
+      "userId": "user-1792989135251",
+      "channel": "SMS",
+      "type": "PASSWORD_RESET_SMS",
+      "recipient": "+91****6986",
+      "summary": "SignBridge: Hi jasn, your password reset code is 2",
+      "provider": "simulation",
+      "status": "SIMULATED",
+      "messageId": "sim-sms-1793003189619",
+      "timestamp": "2026-10-26T08:26:29.619Z"
+    },
+    {
+      "id": "notif-1793003189618-5ysaq",
+      "userId": "user-1792989135251",
+      "channel": "EMAIL",
+      "type": "PASSWORD_RESET_EMAIL",
+      "recipient": "ja***@gmail.com",
+      "subject": "Reset Your SignBridge Password",
+      "provider": "simulation",
+      "status": "SIMULATED",
+      "messageId": "sim-email-1793003189617",
+      "timestamp": "2026-10-26T08:26:29.618Z"
+    },
+    {
+      "id": "notif-1792989135285-xqhna",
+      "userId": "user-1792989135251",
+      "channel": "SMS",
+      "type": "WELCOME_SMS",
+      "recipient": "+91****6986",
+      "summary": "Welcome to SignBridge, jasn! Your account is activ",
+      "provider": "simulation",
+      "status": "SIMULATED",
+      "messageId": "sim-sms-1792989135264",
+      "timestamp": "2026-10-26T04:32:15.285Z"
+    },
+    {
+      "id": "notif-1792989135262-kow4i",
+      "userId": "user-1792989135251",
+      "channel": "EMAIL",
+      "type": "WELCOME_EMAIL",
+      "recipient": "ja***@gmail.com",
+      "subject": "Welcome to SignBridge, jasn! 🤟",
+      "provider": "simulation",
+      "status": "SIMULATED",
+      "messageId": "sim-email-1792989135259",
+      "timestamp": "2026-10-26T04:32:15.263Z"
+    }
+  ],
+  "activity": [
+    {
+      "id": "act-1793018019648",
+      "userId": "user-1792989135251",
+      "type": "TRANSLATION_COMPLETED",
+      "icon": "✅",
+      "title": "New Translation Saved",
+      "desc": "Recorded \"hello how are you doing\" (100% confidence)",
+      "timestamp": "2026-10-26T12:33:39.648Z"
+    },
+    {
+      "id": "act-1793018008619",
+      "userId": "user-1792989135251",
+      "type": "TRANSLATION_COMPLETED",
+      "icon": "✅",
+      "title": "New Translation Saved",
+      "desc": "Recorded \"Peace, or Number Two\" (96% confidence)",
+      "timestamp": "2026-10-26T12:33:28.619Z"
+    },
+    {
+      "id": "act-1793018006134",
+      "userId": "user-1792989135251",
+      "type": "TRANSLATION_COMPLETED",
+      "icon": "✅",
+      "title": "New Translation Saved",
+      "desc": "Recorded \"Letter L\" (95% confidence)",
+      "timestamp": "2026-10-26T12:33:26.134Z"
+    },
+    {
+      "id": "act-1793018001964",
+      "userId": "user-1792989135251",
+      "type": "TRANSLATION_COMPLETED",
+      "icon": "✅",
+      "title": "New Translation Saved",
+      "desc": "Recorded \"Letter B\" (95% confidence)",
+      "timestamp": "2026-10-26T12:33:21.964Z"
+    },
+    {
+      "id": "act-1793018001869",
+      "userId": "user-1792989135251",
+      "type": "TRANSLATION_COMPLETED",
+      "icon": "✅",
+      "title": "New Translation Saved",
+      "desc": "Recorded \"No, I disagree\" (95% confidence)",
+      "timestamp": "2026-10-26T12:33:21.869Z"
+    },
+    {
+      "id": "act-1793018001683",
+      "userId": "user-1792989135251",
+      "type": "TRANSLATION_COMPLETED",
+      "icon": "✅",
+      "title": "New Translation Saved",
+      "desc": "Recorded \"Peace, or Number Two\" (97% confidence)",
+      "timestamp": "2026-10-26T12:33:21.683Z"
+    },
+    {
+      "id": "act-1793017999580",
+      "userId": "user-1792989135251",
+      "type": "TRANSLATION_COMPLETED",
+      "icon": "✅",
+      "title": "New Translation Saved",
+      "desc": "Recorded \"Peace, or Number Two\" (96% confidence)",
+      "timestamp": "2026-10-26T12:33:19.580Z"
+    },
+    {
+      "id": "act-1793017998547",
+      "userId": "user-1792989135251",
+      "type": "TRANSLATION_COMPLETED",
+      "icon": "✅",
+      "title": "New Translation Saved",
+      "desc": "Recorded \"No, I disagree\" (97% confidence)",
+      "timestamp": "2026-10-26T12:33:18.547Z"
+    },
+    {
+      "id": "act-1793017995902",
+      "userId": "user-1792989135251",
+      "type": "TRANSLATION_COMPLETED",
+      "icon": "✅",
+      "title": "New Translation Saved",
+      "desc": "Recorded \"Peace, or Number Two\" (96% confidence)",
+      "timestamp": "2026-10-26T12:33:15.902Z"
+    },
+    {
+      "id": "act-1793017995700",
+      "userId": "user-1792989135251",
+      "type": "TRANSLATION_COMPLETED",
+      "icon": "✅",
+      "title": "New Translation Saved",
+      "desc": "Recorded \"No, I disagree\" (97% confidence)",
+      "timestamp": "2026-10-26T12:33:15.700Z"
+    },
+    {
+      "id": "act-1793017991002",
+      "userId": "user-1792989135251",
+      "type": "TRANSLATION_COMPLETED",
+      "icon": "✅",
+      "title": "New Translation Saved",
+      "desc": "Recorded \"Hello! How are you?\" (98% confidence)",
+      "timestamp": "2026-10-26T12:33:11.002Z"
+    },
+    {
+      "id": "act-1793017990483",
+      "userId": "user-1792989135251",
+      "type": "TRANSLATION_COMPLETED",
+      "icon": "✅",
+      "title": "New Translation Saved",
+      "desc": "Recorded \"No, I disagree\" (71% confidence)",
+      "timestamp": "2026-10-26T12:33:10.483Z"
+    },
+    {
+      "id": "act-1793017983391",
+      "userId": "user-1792989135251",
+      "type": "TRANSLATION_COMPLETED",
+      "icon": "✅",
+      "title": "New Translation Saved",
+      "desc": "Recorded \"Everything is OK\" (97% confidence)",
+      "timestamp": "2026-10-26T12:33:03.391Z"
+    },
+    {
+      "id": "act-1793017982301",
+      "userId": "user-1792989135251",
+      "type": "TRANSLATION_COMPLETED",
+      "icon": "✅",
+      "title": "New Translation Saved",
+      "desc": "Recorded \"Letter S or Ready\" (94% confidence)",
+      "timestamp": "2026-10-26T12:33:02.301Z"
+    },
+    {
+      "id": "act-1793017981770",
+      "userId": "user-1792989135251",
+      "type": "TRANSLATION_COMPLETED",
+      "icon": "✅",
+      "title": "New Translation Saved",
+      "desc": "Recorded \"No, I disagree\" (97% confidence)",
+      "timestamp": "2026-10-26T12:33:01.770Z"
+    },
+    {
+      "id": "act-1793017979690",
+      "userId": "user-1792989135251",
+      "type": "TRANSLATION_COMPLETED",
+      "icon": "✅",
+      "title": "New Translation Saved",
+      "desc": "Recorded \"Hello! How are you?\" (99% confidence)",
+      "timestamp": "2026-10-26T12:32:59.690Z"
+    },
+    {
+      "id": "act-1793017979281",
+      "userId": "user-1792989135251",
+      "type": "TRANSLATION_COMPLETED",
+      "icon": "✅",
+      "title": "New Translation Saved",
+      "desc": "Recorded \"Yes, that sounds good\" (97% confidence)",
+      "timestamp": "2026-10-26T12:32:59.281Z"
+    },
+    {
+      "id": "act-1793017975453",
+      "userId": "user-1792989135251",
+      "type": "TRANSLATION_COMPLETED",
+      "icon": "✅",
+      "title": "New Translation Saved",
+      "desc": "Recorded \"Hello! How are you?\" (99% confidence)",
+      "timestamp": "2026-10-26T12:32:55.453Z"
+    },
+    {
+      "id": "act-1793017975048",
+      "userId": "user-1792989135251",
+      "type": "TRANSLATION_COMPLETED",
+      "icon": "✅",
+      "title": "New Translation Saved",
+      "desc": "Recorded \"Letter S or Ready\" (94% confidence)",
+      "timestamp": "2026-10-26T12:32:55.048Z"
+    },
+    {
+      "id": "act-1793017974393",
+      "userId": "user-1792989135251",
+      "type": "TRANSLATION_COMPLETED",
+      "icon": "✅",
+      "title": "New Translation Saved",
+      "desc": "Recorded \"Hello! How are you?\" (98% confidence)",
+      "timestamp": "2026-10-26T12:32:54.393Z"
+    },
+    {
+      "id": "act-1793017974299",
+      "userId": "user-1792989135251",
+      "type": "TRANSLATION_COMPLETED",
+      "icon": "✅",
+      "title": "New Translation Saved",
+      "desc": "Recorded \"Peace, or Number Two\" (98% confidence)",
+      "timestamp": "2026-10-26T12:32:54.299Z"
+    },
+    {
+      "id": "act-1793017970267",
+      "userId": "user-1792989135251",
+      "type": "TRANSLATION_COMPLETED",
+      "icon": "✅",
+      "title": "New Translation Saved",
+      "desc": "Recorded \"Letter L\" (95% confidence)",
+      "timestamp": "2026-10-26T12:32:50.267Z"
+    },
+    {
+      "id": "act-1793017969822",
+      "userId": "user-1792989135251",
+      "type": "TRANSLATION_COMPLETED",
+      "icon": "✅",
+      "title": "New Translation Saved",
+      "desc": "Recorded \"No, I disagree\" (97% confidence)",
+      "timestamp": "2026-10-26T12:32:49.822Z"
+    },
+    {
+      "id": "act-1793017962015",
+      "userId": "user-1792989135251",
+      "type": "TRANSLATION_COMPLETED",
+      "icon": "✅",
+      "title": "New Translation Saved",
+      "desc": "Recorded \"Letter L\" (95% confidence)",
+      "timestamp": "2026-10-26T12:32:42.015Z"
+    },
+    {
+      "id": "act-1793017961582",
+      "userId": "user-1792989135251",
+      "type": "TRANSLATION_COMPLETED",
+      "icon": "✅",
+      "title": "New Translation Saved",
+      "desc": "Recorded \"Yes, that sounds good\" (97% confidence)",
+      "timestamp": "2026-10-26T12:32:41.582Z"
+    },
+    {
+      "id": "act-1793017961249",
+      "userId": "user-1792989135251",
+      "type": "TRANSLATION_COMPLETED",
+      "icon": "✅",
+      "title": "New Translation Saved",
+      "desc": "Recorded \"Letter S or Ready\" (94% confidence)",
+      "timestamp": "2026-10-26T12:32:41.249Z"
+    },
+    {
+      "id": "act-1793017955346",
+      "userId": "user-1792989135251",
+      "type": "TRANSLATION_COMPLETED",
+      "icon": "✅",
+      "title": "New Translation Saved",
+      "desc": "Recorded \"Hello! How are you?\" (98% confidence)",
+      "timestamp": "2026-10-26T12:32:35.346Z"
+    },
+    {
+      "id": "act-1792990343025",
+      "userId": "user-1792989135251",
+      "type": "TRANSLATION_COMPLETED",
+      "icon": "✅",
+      "title": "New Translation Saved",
+      "desc": "Recorded \"Yes, that sounds good\" (99% confidence)",
+      "timestamp": "2026-10-26T04:52:23.025Z"
+    },
+    {
+      "id": "act-1792990272885",
+      "userId": "user-1792989135251",
+      "type": "TRANSLATION_COMPLETED",
+      "icon": "✅",
+      "title": "New Translation Saved",
+      "desc": "Recorded \"Yes, that sounds good\" (97% confidence)",
+      "timestamp": "2026-10-26T04:51:12.885Z"
+    },
+    {
+      "id": "act-1792990272449",
+      "userId": "user-1792989135251",
+      "type": "TRANSLATION_COMPLETED",
+      "icon": "✅",
+      "title": "New Translation Saved",
+      "desc": "Recorded \"Call me, or Letter Y\" (96% confidence)",
+      "timestamp": "2026-10-26T04:51:12.449Z"
+    },
+    {
+      "id": "act-1792990271077",
+      "userId": "user-1792989135251",
+      "type": "TRANSLATION_COMPLETED",
+      "icon": "✅",
+      "title": "New Translation Saved",
+      "desc": "Recorded \"Everything is OK\" (97% confidence)",
+      "timestamp": "2026-10-26T04:51:11.077Z"
+    },
+    {
+      "id": "act-1792990266194",
+      "userId": "user-1792989135251",
+      "type": "TRANSLATION_COMPLETED",
+      "icon": "✅",
+      "title": "New Translation Saved",
+      "desc": "Recorded \"Yes, that sounds good\" (99% confidence)",
+      "timestamp": "2026-10-26T04:51:06.194Z"
+    },
+    {
+      "id": "act-1792990262074",
+      "userId": "user-1792989135251",
+      "type": "TRANSLATION_COMPLETED",
+      "icon": "✅",
+      "title": "New Translation Saved",
+      "desc": "Recorded \"Hello! How are you?\" (99% confidence)",
+      "timestamp": "2026-10-26T04:51:02.074Z"
+    },
+    {
+      "id": "act-1792990261458",
+      "userId": "user-1792989135251",
+      "type": "TRANSLATION_COMPLETED",
+      "icon": "✅",
+      "title": "New Translation Saved",
+      "desc": "Recorded \"Letter B\" (95% confidence)",
+      "timestamp": "2026-10-26T04:51:01.458Z"
+    },
+    {
+      "id": "act-1792986933282",
+      "userId": "user-1790884098767",
+      "type": "TRANSLATION_COMPLETED",
+      "icon": "✅",
+      "title": "New Translation Saved",
+      "desc": "Recorded \"Everything is OK\" (97% confidence)",
+      "timestamp": "2026-10-26T03:55:33.285Z"
+    },
+    {
+      "id": "act-1792986786833",
+      "userId": "user-1790884098767",
+      "type": "TRANSLATION_COMPLETED",
+      "icon": "✅",
+      "title": "New Translation Saved",
+      "desc": "Recorded \"Everything is OK\" (97% confidence)",
+      "timestamp": "2026-10-26T03:53:06.833Z"
+    }
+  ]
+}

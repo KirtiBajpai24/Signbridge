@@ -1,0 +1,242 @@
+.asl-visual-container {
+  width: 100%;
+}
+
+/* Concept Sign Card */
+.concept-sign-card {
+  background: linear-gradient(135deg, #ffffff 0%, #f0fdfa 100%);
+  border: 2px solid #99f6e4;
+  border-radius: 20px;
+  padding: 2.5rem 2rem;
+  box-shadow: 0 10px 25px -5px rgba(13, 148, 136, 0.12);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.concept-top-row {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+
+.concept-category-tag {
+  background: #ccfbf1;
+  color: #0f766e;
+  font-size: 0.8rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  padding: 0.25rem 0.75rem;
+  border-radius: 9999px;
+  border: 1px solid #99f6e4;
+}
+
+.concept-motion-indicator {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-size: 0.85rem;
+  color: #475569;
+  background: #ffffff;
+  padding: 0.25rem 0.75rem;
+  border-radius: 8px;
+  border: 1px solid #e2e8f0;
+}
+
+.concept-hero-icon-wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.concept-hero-icon {
+  font-size: 5.5rem;
+  line-height: 1;
+  position: relative;
+  z-index: 2;
+  filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.1));
+  animation: floatHand 3s ease-in-out infinite alternate;
+}
+
+@keyframes floatHand {
+  0% { transform: translateY(0) scale(1); }
+  100% { transform: translateY(-6px) scale(1.04); }
+}
+
+.concept-hand-aura {
+  position: absolute;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(13, 148, 136, 0.15) 0%, rgba(13, 148, 136, 0) 70%);
+  z-index: 1;
+}
+
+.concept-hero-label {
+  font-size: 2.2rem;
+  font-weight: 900;
+  color: #0f172a;
+  letter-spacing: -0.02em;
+  margin: 0 0 1.25rem;
+  text-align: center;
+}
+
+.concept-desc-box {
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 14px;
+  padding: 1.25rem 1.5rem;
+  width: 100%;
+  max-width: 580px;
+  text-align: left;
+  box-shadow: 0 2px 6px rgba(15, 23, 42, 0.04);
+}
+
+.desc-heading {
+  font-size: 0.8rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: #0d9488;
+  margin-bottom: 0.4rem;
+}
+
+.desc-text {
+  font-size: 0.95rem;
+  color: #334155;
+  line-height: 1.6;
+  margin: 0;
+  white-space: pre-line;
+}
+
+/* Fingerspelling Multi-letter view */
+.fs-card {
+  background: #ffffff;
+  border: 2px solid #e2e8f0;
+  border-radius: 20px;
+  padding: 2rem;
+  box-shadow: 0 4px 12px rgba(15, 23, 42, 0.04);
+}
+
+.fs-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+
+.fs-word-title {
+  font-size: 1.25rem;
+  font-weight: 800;
+  color: #0f172a;
+}
+
+.fs-badge {
+  background: #f1f5f9;
+  color: #475569;
+  font-size: 0.8rem;
+  font-weight: 700;
+  padding: 0.25rem 0.6rem;
+  border-radius: 6px;
+}
+
+.fs-current-letter-box {
+  background: linear-gradient(135deg, #f8fafc, #f1f5f9);
+  border: 2px solid #cbd5e1;
+  border-radius: 16px;
+  padding: 2rem;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.fs-letter-badge {
+  display: inline-block;
+  background: #0d9488;
+  color: #ffffff;
+  font-size: 1.6rem;
+  font-weight: 900;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  border-radius: 12px;
+  margin-bottom: 0.75rem;
+  box-shadow: 0 4px 10px rgba(13, 148, 136, 0.3);
+}
+
+.fs-letter-sign-large {
+  font-size: 5rem;
+  line-height: 1;
+  margin-bottom: 0.75rem;
+}
+
+.fs-letter-desc {
+  font-size: 0.95rem;
+  color: #334155;
+  line-height: 1.5;
+  max-width: 500px;
+  margin: 0 auto 0.75rem;
+}
+
+.fs-letter-hint {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-size: 0.85rem;
+  background: #fef3c7;
+  color: #92400e;
+  padding: 0.35rem 0.85rem;
+  border-radius: 9999px;
+  font-weight: 600;
+}
+
+.fs-letter-thumbs {
+  display: flex;
+  gap: 0.5rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.fs-thumb-btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.2rem;
+  padding: 0.5rem 0.85rem;
+  background: #f8fafc;
+  border: 1px solid #cbd5e1;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+
+.fs-thumb-btn:hover {
+  border-color: #0d9488;
+  background: #f0fdfa;
+}
+
+.fs-thumb-btn.active {
+  background: #0d9488;
+  border-color: #0d9488;
+  color: #ffffff;
+}
+
+.fs-thumb-btn.active .thumb-char {
+  color: #ffffff;
+}
+
+.thumb-char {
+  font-size: 1.1rem;
+  font-weight: 800;
+  color: #0f172a;
+}
+
+.thumb-sign {
+  font-size: 1.3rem;
+}

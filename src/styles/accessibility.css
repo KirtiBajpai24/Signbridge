@@ -1,0 +1,107 @@
+/* ========================================================
+   SignBridge Universal Accessibility Styles (WCAG 2.1 AA/AAA)
+   ======================================================== */
+
+/* Screen reader only utility */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+/* 1. Dynamic Font Scaling */
+html[data-a11y-font="large"] {
+  font-size: 112.5%; /* ~18px base */
+}
+
+html[data-a11y-font="xlarge"] {
+  font-size: 125%; /* ~20px base */
+}
+
+/* 2. Dyslexia-Friendly Typography */
+html[data-a11y-dyslexic="true"] body {
+  font-family: 'Comic Sans MS', 'OpenDyslexic', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif !important;
+  letter-spacing: 0.04em !important;
+  word-spacing: 0.08em !important;
+  line-height: 1.75 !important;
+}
+
+/* 3. Reduced Motion */
+html[data-a11y-motion="reduced"] *,
+html[data-a11y-motion="reduced"] *::before,
+html[data-a11y-motion="reduced"] *::after {
+  animation-duration: 0.001ms !important;
+  animation-iteration-count: 1 !important;
+  transition-duration: 0.001ms !important;
+  scroll-behavior: auto !important;
+}
+
+/* 4. Enhanced Focus Ring for Keyboard Users */
+html[data-a11y-focus="true"] *:focus-visible {
+  outline: 3.5px solid #2563eb !important;
+  outline-offset: 3px !important;
+  box-shadow: 0 0 0 4px rgba(37, 99, 235, 0.35) !important;
+}
+
+/* 5. High Contrast Mode (WCAG AAA Compliance) */
+html[data-a11y-contrast="true"] {
+  --bg-primary: #000000;
+  --bg-surface: #121212;
+  --text-primary: #ffffff;
+  --text-secondary: #e2e8f0;
+  --border-color: #ffffff;
+}
+
+html[data-a11y-contrast="true"] body {
+  background-color: #000000 !important;
+  color: #ffffff !important;
+}
+
+html[data-a11y-contrast="true"] .app-shell,
+html[data-a11y-contrast="true"] .site-navbar,
+html[data-a11y-contrast="true"] .site-footer,
+html[data-a11y-contrast="true"] .page-container,
+html[data-a11y-contrast="true"] .camera-card,
+html[data-a11y-contrast="true"] .translation-panel,
+html[data-a11y-contrast="true"] .card,
+html[data-a11y-contrast="true"] .dashboard-card {
+  background: #000000 !important;
+  color: #ffffff !important;
+  border-color: #ffffff !important;
+}
+
+html[data-a11y-contrast="true"] a {
+  color: #93c5fd !important;
+  text-decoration: underline !important;
+}
+
+html[data-a11y-contrast="true"] button {
+  border: 2px solid #ffffff !important;
+  font-weight: 700 !important;
+}
+
+html[data-a11y-contrast="true"] .btn-primary {
+  background: #ffffff !important;
+  color: #000000 !important;
+  border: 2px solid #ffffff !important;
+}
+
+html[data-a11y-contrast="true"] .btn-outline {
+  background: #000000 !important;
+  color: #ffffff !important;
+  border: 2px solid #ffffff !important;
+}
+
+html[data-a11y-contrast="true"] input,
+html[data-a11y-contrast="true"] textarea,
+html[data-a11y-contrast="true"] select {
+  background: #000000 !important;
+  color: #ffffff !important;
+  border: 2px solid #ffffff !important;
+}
